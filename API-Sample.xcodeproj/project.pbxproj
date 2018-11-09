@@ -14,6 +14,10 @@
 		EE06D30421952AE100961AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE06D30221952AE100961AB0 /* LaunchScreen.storyboard */; };
 		EE06D30F21952AE100961AB0 /* API_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06D30E21952AE100961AB0 /* API_SampleTests.swift */; };
 		EE06D31A21952AE100961AB0 /* API_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06D31921952AE100961AB0 /* API_SampleUITests.swift */; };
+		EE06D32821952F0F00961AB0 /* API-Pram.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06D32721952F0F00961AB0 /* API-Pram.swift */; };
+		EE06D32A2195515900961AB0 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06D3292195515900961AB0 /* APIModel.swift */; };
+		EE06D32C219551E400961AB0 /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06D32B219551E400961AB0 /* ExtensionDictionary.swift */; };
+		EEF23EB621956BEC00741ADC /* JasonParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF23EB521956BEC00741ADC /* JasonParse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EE06D31521952AE100961AB0 /* API-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "API-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE06D31921952AE100961AB0 /* API_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_SampleUITests.swift; sourceTree = "<group>"; };
 		EE06D31B21952AE100961AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE06D32721952F0F00961AB0 /* API-Pram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API-Pram.swift"; sourceTree = "<group>"; };
+		EE06D3292195515900961AB0 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		EE06D32B219551E400961AB0 /* ExtensionDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDictionary.swift; sourceTree = "<group>"; };
+		EEF23EB521956BEC00741ADC /* JasonParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasonParse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				EE06D2F921952ADE00961AB0 /* AppDelegate.swift */,
+				EE06D32721952F0F00961AB0 /* API-Pram.swift */,
 				EE06D2FB21952ADE00961AB0 /* ViewController.swift */,
 				EE06D2FD21952ADE00961AB0 /* Main.storyboard */,
+				EE06D32B219551E400961AB0 /* ExtensionDictionary.swift */,
 				EE06D30021952AE100961AB0 /* Assets.xcassets */,
+				EEF23EB521956BEC00741ADC /* JasonParse.swift */,
+				EE06D3292195515900961AB0 /* APIModel.swift */,
 				EE06D30221952AE100961AB0 /* LaunchScreen.storyboard */,
 				EE06D30521952AE100961AB0 /* Info.plist */,
 			);
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE06D32C219551E400961AB0 /* ExtensionDictionary.swift in Sources */,
+				EE06D32A2195515900961AB0 /* APIModel.swift in Sources */,
 				EE06D2FC21952ADE00961AB0 /* ViewController.swift in Sources */,
+				EEF23EB621956BEC00741ADC /* JasonParse.swift in Sources */,
+				EE06D32821952F0F00961AB0 /* API-Pram.swift in Sources */,
 				EE06D2FA21952ADE00961AB0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
