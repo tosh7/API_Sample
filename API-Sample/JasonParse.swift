@@ -9,8 +9,15 @@
 import Foundation
 
 struct job: Decodable {
-    var catch_copy: String!
-    var location: String!
+    var workDetailUrl: String!
+    var workId: String!
+    var workPlace: String
+    
+//    private enum CodingKeys: String, CodingKey {
+//        case workDetailUrl = work_detail_url
+//        case workId = work_id
+//        case workPlaze = work_place
+//    }
 }
 
 

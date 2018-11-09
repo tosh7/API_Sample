@@ -11,7 +11,7 @@ import Foundation
 class APIModel {
     
     func doSearch(_ strPram: String) {
-        let test: String = "https://shiftcu-migration.devoneidv.info/application/public_work_list.json"
+        let test: String = "https://xxxxxxxxx/application/public_work_list.json"
         guard let url = URL(string: test ) else { return  }
         
         var request = URLRequest(url: url)
@@ -28,8 +28,8 @@ class APIModel {
                 
                 let json = try JSONSerialization.jsonObject(with: dataResponse, options: JSONSerialization.ReadingOptions.allowFragments)
                 print(json)
-//                let decoder = JSONDecoder()
-//                let catch_copy = try? decoder.decode(job.self, from: json as! Data)
+                let decoder = JSONDecoder()
+                let test = try? decoder.decode(job.self, from: json as! Data)
                 
             } catch {
                 print("Serialize Error")
